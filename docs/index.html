@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gerrymander'd Docs</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    
+    #markdown-input {
+      width: 100%;
+      height: 150px;
+      margin-bottom: 1rem;
+    }
+    
+    #markdown-output {
+      border-top: 1px solid #ccc;
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="markdown-output"></div>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js" type="module"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> -->
+  <script type="module">
+    import { marked } from 'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js'
+    
+    const fretboardPlanMd = await (await fetch('./gerry.md')).text();
+    const output = document.querySelector('#markdown-output');
+    
+    function renderMarkdown() {
+      output.innerHTML = marked.parse(fretboardPlanMd);
+    }
+    renderMarkdown();
+  </script>
+  
+</body>
+
+</html>

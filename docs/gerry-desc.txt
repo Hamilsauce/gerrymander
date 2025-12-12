@@ -1,0 +1,27 @@
+Got it — here is the **same content expressed in normal paragraph form**, strictly describing **game flow and mechanics**, with no narrative framing or thematic language.
+
+---
+
+The game is played by 3–6 players on a full U.S. map. Each state is divided into several large sub-state regions, each with an assigned population weight. Control of individual regions grants control of their weight, but states are not automatically secured by controlling territory alone. The game proceeds in two phases.
+
+In Phase 1, players compete for control of regional population weight within states. On a turn, a player may contest a region by spending influence and resolving a dice roll modified by adjacency, momentum, and chosen force level. Successful contests transfer control of the region and its population weight. Regions may change hands multiple times during Phase 1.
+
+When a player controls at least 50% of a state’s population weight, that player becomes eligible to attempt a gerrymander of the state. A gerrymander is an attempt to structurally lock the state and end further regional contests there. The success of a gerrymander attempt depends on the percentage of population weight controlled, the number of adjacent locked states, the presence of opposing factions within the state, and the force level chosen. Higher population control increases success probability, while thin majorities carry significant failure risk.
+
+If a gerrymander attempt succeeds, the state becomes locked. No further regional contests may occur in that state during Phase 1. All factions that previously held regions or weight in the state begin accumulating pressure. If a gerrymander attempt fails, the state remains contested, pressure still increases for affected factions, and the initiating player may be restricted from immediately attempting another gerrymander there.
+
+Force levels determine reliability and pressure generation for both regional contests and gerrymander attempts. Soft force has lower reliability but generates less pressure. Hard force is more reliable and generates moderate pressure. Brutal force is highly reliable but generates large amounts of latent pressure.
+
+Pressure is tracked per faction per state and increases over time after displacement or structural exclusion. Pressure has no immediate effect during Phase 1, but thin or aggressive gerrymanders increase its growth rate. Players may spend a turn on pressure relief actions, which reduce or slow pressure accumulation in a state at the cost of forfeiting expansion opportunities that turn.
+
+Phase 1 ends when one player has locked a dominant share of total national population weight and other players can no longer realistically prevent structural dominance. That player becomes the regime, and the game transitions to Phase 2 without resetting the map.
+
+In Phase 2, accumulated pressure converts into insurgency units within states. The strength of insurgencies depends on the amount of pressure accumulated, the force levels previously used, and the population weight of affected regions. Former players now act as factions and no longer compete with each other for territory.
+
+Phase 2 proceeds in rounds. During each round, factions act first, followed by the regime. Faction actions include attacking adjacent regions, reinforcing existing insurgencies, and reducing the regime’s response capacity. Factions do not engage in combat with each other.
+
+The regime responds by suppressing insurgencies, moving forces between regions, fortifying key states, or conceding autonomy to reduce pressure at the cost of territorial control. Brutal suppression removes insurgent units but generates additional latent pressure, increasing future instability.
+
+States flip when key population regions are lost. Loss of enough states reduces the regime’s national dominance. The regime loses if dominance collapses or insurgency exceeds its ability to respond. The regime wins if it survives Phase 2 for a fixed number of rounds while maintaining dominance and reducing insurgency below a defined threshold.
+
+All outcomes in Phase 2 are determined by structural decisions made during Phase 1.
