@@ -50,10 +50,9 @@ On your turn, choose **one**:
      * State becomes **locked**
      * No further district contests allowed there in Phase 1
      * Locked-out factions begin accumulating pressure
-   * On failure:
-
+  
+ * On failure:
      * State remains contested
-     * Pressure still increases
      * Gerrymander cooldown applies
 
 3. **Pressure Relief**
@@ -75,9 +74,8 @@ On your turn, choose **one**:
 
 * Pressure is tracked **per state per faction**
 * Generated when:
-
-  * A faction loses districts
-  * A state is gerrymandered against them
+  * A state is gerrymandered by a faction
+  * That state contains unflipped districts (districts still controlled by other factions in a locked state)
 * Thin or aggressive gerrymanders generate pressure faster
 * Pressure does nothing immediately
 
@@ -107,9 +105,7 @@ On your turn, choose **one**:
 * Insurgency strength scales with:
 
   * Amount of pressure
-  * Force used during gerrymandering
-  * Population weight of the state
-
+  * Pressure to insurgency is one time event
 ---
 
 ### Phase 2 Turn Structure
@@ -136,9 +132,7 @@ Factions do not fight each other.
 * Suppress insurgency
 * Move forces
 * Fortify states
-* Concede autonomy (reduces pressure, weakens control)
 
-Brutal suppression removes insurgents but creates new latent pressure.
 
 ---
 
@@ -153,15 +147,12 @@ Brutal suppression removes insurgents but creates new latent pressure.
 
 ### Regime Wins If:
 
-* Survives Phase 2 for X rounds
+* Survives Phase 2 until all insurgencies are neutralized
 * Maintains national dominance
-* Insurgency below collapse threshold
 
 ### Factions Win If:
 
-* Regime loses dominance
-* National cohesion collapses
-* Insurgency exceeds regime capacity
+* Regime loses dominance before insurgencies run out of spunk
 
 ---
 
